@@ -8,9 +8,7 @@ export const metadata: Metadata = {
     "In the event that CricDash collects any Personal Information via our website or app, the User hereby agrees to CricDash collecting, storing, processing, transferring, and sharing their Personal Information in line with its privacy policy, which is accessible at https://www.cricdash.com/privacy-policy.",
 };
 
-type Props = {};
-
-const PrivacyPage = (props: Props) => {
+const PrivacyPage = () => {
   return (
     <div className="w-full overflow-y-auto scrollbar">
       <div className="mx-auto max-w-6xl px-2 pt-0 md:pb-32 xl:px-1.5">
